@@ -1,3 +1,6 @@
+// 1. (Required) Load your project's USWDS settings and configuration
 @forward "uswds-theme";
+// 2. (Required) Load USWDS source code
 @forward "uswds";
-@forward "uswds-theme-custom-styles";
+// 3. (Optional) Load your project's custom Sass
+// @forward "uswds-theme-custom-styles";

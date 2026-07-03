@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:uswds": "pnpm dlx gulp updateUswds && pnpm dlx gulp compile",
     "start": "next start",
     "lint": "next lint"
   },
