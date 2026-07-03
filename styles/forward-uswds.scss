@@ -1,0 +1,4 @@
+// This file is used to include USWDS globally in the project. It is imported in next.config.js as additionalData, which means its contents are included in every Sass file in the project. This is a convenient way to make USWDS mixins and variables available everywhere without needing to import them in each file.
+// Distinction: `@use` loads for the current file only, whereas `@forward` makes members available to whoever `@use`s this file.
+@forward "@/styles/theme/_uswds-theme.scss";
+@forward "uswds-core";
